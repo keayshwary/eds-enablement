@@ -35,3 +35,13 @@
     height: auto;
     display: block;
   }
+
+  .eds-enablement-block > div {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .eds-enablement-block > div > div {
+    flex: 1;
+  }
+  
