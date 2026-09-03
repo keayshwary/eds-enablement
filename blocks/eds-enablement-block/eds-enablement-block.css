@@ -39,9 +39,20 @@
   .eds-enablement-block > div {
     display: flex;
     gap: 24px;
+    align-items: stretch;
   }
   
   .eds-enablement-block > div > div {
     flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-sizing: border-box;
+  }
+
+  @media (width < 600px) {
+    .eds-enablement-block > div {
+      flex-direction: column;
+    }
   }
   
